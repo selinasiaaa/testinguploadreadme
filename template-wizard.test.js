@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {markWizardStep,nextWizardStep,wizardStepStatus,mappingSignature} from '../src/templateWizard.js';
+const draft=()=>({name:'Example',status:'draft',presetId:'custom',kind:'columns',fields:[{id:'customer',label:'Customer',source:'label'}],modules:[],workflow:{count:3},mappings:{customer:'Company'},regions:[],sampleDocumentId:'sample1'});
+test('upload step jumps straight to workflow when mapping and test already completed',()=>{const t=draft();t.wizard={testSignature:mappingSignature(t)};assert.equal(wizardStepStatus(t,3),'complete');assert.equal(wizardStepStatus(t,4),'complete');assert.equal(wizardStepStatus(t,5),'complete');assert.equal(nextWizardStep(t,3),6);});
+test('changing a mapping invalidates the test and next returns to extraction',()=>{const t=draft();t.wizard={testSignature:mappingSignature(t)};t.mappings.customer='Other';assert.equal(wizardStepStatus(t,5),'pending');assert.equal(nextWizardStep(t,3),5);});
+test('every step can be skipped and revisited without deleting its data',()=>{const t=draft();for(let i=0;i<8;i++)markWizardStep(t,i,true);assert.equal(nextWizardStep(t,0),7);assert.equal(wizardStepStatus(t,2),'skipped');assert.equal(t.fields[0].id,'customer');assert.equal(wizardStepStatus(t,7),'skipped');markWizardStep(t,2);assert.equal(wizardStepStatus(t,2),'complete');});
+test('editing configured fields requires revisiting their completion; saved progress survives reload',()=>{const t=markWizardStep(draft(),1);assert.equal(wizardStepStatus(structuredClone(t),1),'complete');t.fields[0].label='Customer legal name';assert.equal(wizardStepStatus(t,1),'pending');});
+test('no sample or actual test does not imply extraction complete',()=>{const t=draft();delete t.sampleDocumentId;assert.equal(wizardStepStatus(t,3),'pending');assert.equal(wizardStepStatus(t,4),'pending');assert.equal(wizardStepStatus(t,5),'pending');});

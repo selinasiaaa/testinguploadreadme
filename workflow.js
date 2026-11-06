@@ -1,0 +1,19 @@
+import {addDays,validDate,nextStep,today,uid} from './domain.js';
+export const clientOutcomes={awaiting:'Awaiting reply',interested:'Interested',accepted:'Proposal accepted',declined:'Not interested',hold:'On hold'};
+export const clientOutcome=r=>r.clientOutcome||({won:'accepted',lost:'declined',paused:'hold'}[r.outcome])||'awaiting';
+export function businessDate(date){if(!validDate(date))throw new Error('Choose a valid date.');while([0,6].includes(new Date(date+'T12:00:00').getDay()))date=addDays(date,1);return date;}
+export function shiftRemaining(record,date,skipWeekends=false){if(!validDate(date))throw new Error('Choose a valid next follow-up date.');const pending=record.schedule.filter(s=>!s.completedAt).sort((a,b)=>a.due.localeCompare(b.due));if(!pending.length)throw new Error('This record has no remaining attempts.');const delta=Math.round((new Date(date+'T12:00:00')-new Date(pending[0].due+'T12:00:00'))/86400000);pending.forEach(s=>{s.due=addDays(s.due,delta);if(skipWeekends)s.due=businessDate(s.due);});return record;}
+export function applyClientOutcome(record,value){if(!clientOutcomes[value])throw new Error('Choose a client outcome.');record.clientOutcome=value;record.outcome=({accepted:'won',declined:'lost',hold:'paused'})[value]||'open';if(['interested','accepted','declined'].includes(value))record.respondedAt=record.respondedAt||new Date().toISOString();return record;}
+export function logActivity(record,text){record.history.push({id:uid(),at:new Date().toISOString(),text});return record;}
+export function queueGroups(records,date=today()){const active=records.filter(r=>nextStep(r)).sort((a,b)=>nextStep(a).due.localeCompare(nextStep(b).due));return {overdue:active.filter(r=>nextStep(r).due<date),today:active.filter(r=>nextStep(r).due===date),upcoming:active.filter(r=>nextStep(r).due>date)};}
+const clean=v=>String(v||'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+export function duplicateMatches(incoming,records){return records.filter(r=>{
+ if(incoming.sourceKey&&incoming.sourceKey===r.sourceKey)return true;
+ const a=incoming.values||{},b=r.values||{};const ref=clean(a.reference||a.proposal_number||a.invoice_number),other=clean(b.reference||b.proposal_number||b.invoice_number);
+ if(ref&&ref===other)return true;
+ const company=clean(a.customer||a.company_name||a.client_company),otherCompany=clean(b.customer||b.company_name||b.client_company);const date=a.document_date||a.proposal_date,otherDate=b.document_date||b.proposal_date;
+ return !!(company&&company===otherCompany&&date&&date===otherDate);
+});}
+export function mergeImported(existing,incoming){return {...existing,values:incoming.values,serviceModules:incoming.serviceModules,templateId:incoming.templateId,templateSnapshot:incoming.templateSnapshot,templateVersion:incoming.templateVersion,extraction:incoming.extraction,reviewedAt:incoming.reviewedAt,documentId:incoming.documentId,sourceKey:incoming.sourceKey,title:incoming.title,history:[...existing.history,{id:uid(),at:new Date().toISOString(),text:'Document re-imported after duplicate review. Client outcome, owner, notes and follow-up history preserved.'}]};}
+export function searchRecord(r,query){return JSON.stringify([r.title,r.owner,r.values,r.notes,r.history?.map(h=>h.text),r.serviceModules?.filter(m=>m.selected).map(m=>m.name)]).toLowerCase().includes(query.toLowerCase());}
+export function reportMetrics(records){const responded=records.filter(r=>r.respondedAt||['interested','accepted','declined'].includes(clientOutcome(r))||r.outcome==='replied').length;return {total:records.length,responded,accepted:records.filter(r=>clientOutcome(r)==='accepted').length,responseRate:records.length?Math.round(responded/records.length*100):0,attempts:records.reduce((n,r)=>n+r.schedule.filter(s=>s.completedAt).length,0)};}

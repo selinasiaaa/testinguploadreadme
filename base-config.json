@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "id": "followup-studio-starter-v1",
+  "company": { "name": "Your company", "subtitle": "Every conversation, followed through.", "logo": "", "color": "#185b4c", "currency": "MYR" },
+  "fields": [
+    { "id": "customer", "label": "Customer / company", "type": "text", "required": true, "aliases": "Customer, Company, Bill To" },
+    { "id": "contact", "label": "Contact person", "type": "text", "required": false, "aliases": "Attention, Attn, Contact Person" },
+    { "id": "reference", "label": "Reference number", "type": "text", "required": false, "aliases": "Quotation No, Reference, Quote No" },
+    { "id": "email", "label": "Email", "type": "email", "required": false, "aliases": "Email, E-mail" },
+    { "id": "phone", "label": "Phone / WhatsApp", "type": "tel", "required": false, "aliases": "Mobile, Phone, Tel" },
+    { "id": "amount", "label": "Amount", "type": "number", "required": false, "aliases": "Grand Total, Total Amount" }
+  ],
+  "cadence": {
+    "count": 3, "every": 1, "unit": "weeks",
+    "steps": [
+      { "title": "First check-in", "message": "Hi {{contact}}, just checking in on {{reference}} for {{customer}}. Let me know if you have any questions. — {{company}}" },
+      { "title": "Second follow-up", "message": "Hi {{contact}}, following up on {{reference}}. Is there anything we can help with to move this forward? — {{company}}" },
+      { "title": "Final check-in", "message": "Hi {{contact}}, one last check-in on {{reference}}. Please let us know whether you would like to proceed. Thank you! — {{company}}" }
+    ]
+  },
+  "templates": []
+}
