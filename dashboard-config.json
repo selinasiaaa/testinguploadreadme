@@ -1,0 +1,1108 @@
+{
+  "version": 1,
+  "id": "3968f5ff-58df-4bd9-a748-d418b0e974f2",
+  "company": {
+    "secondaryColor": "#edf3f1",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "title": "FollowUp Workspace",
+    "signature": "",
+    "name": "ANC TESTING 1",
+    "subtitle": "Every conversation, followed through.",
+    "logo": "data:image/jpeg;base64,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B9/81//aAAwDAQACAAMAAAAQ88888888888888888888888888888888888888888888888888888893uyKe62se888a8oTI+kO88888nwoCL8My3888tIcNvn41jd8884I5dpssd6c888888888888888888888888888888888888888888888888888888//EACQRAQEAAgIBBAMAAwAAAAAAAAERACExQVEgYXGBUJGhscHw/9oACAEDAQE/EPyxsusMOJz2Jy8cNO+LypMBjqfrBug4UAnthE5ejYHy/wCstPk/xn8OU/ky0nOCI8zEW0MUijXpAK4Mbf2/zGj0Y/H/AG8/hxY9Jjd58skeRjsPsmNQLgiU9BtJ2+2UQX3EZ+sQ1LqqBfvHG0JRHJhDyoGRgbw0wd/LoPPevrHBboZydx+vOJk64qFywZ8Jx6FB1FR4Ai/bHKojey18LoMC7halAmyUvPnEUbqzQ6AQ8IHO7cEvaqE3e96Z47uTRDEUpLtmi3jqZXuhQlijVhq8Yd5YAyhA3KVmOQACqRt0lOZgENnfy1+NvH5f/8QAIREBAAICAQQDAQAAAAAAAAAAAQARIUExIFBRoWFxsfD/2gAIAQIBAT8Q7soHcZlySu85RmIGsPhQxgaiIMKRPFv5jS9Dmf0SkG/2e3Koy4ONRKri4JwrArLZ6QoG4zBr9gXbZP71Pbg7abh1ceEu/FgBX1ChuoiNPRW0uo4DFHicLV8yitu4xBCpWix9wzGvHiGKwRXZtegooiV4qFaqFLuLRNR7LuFsTULldwIJKFd3/8QAJxABAQABBAIBBAIDAQAAAAAAAREhADFBURBhcSAwgaGR8HCxwdH/2gAIAQEAAT8Q/wAmnnqFH7Xb6GpcTSKDdEDmeS7CIKuRSsUKeDKoSkb04BMOfJTirNdU6OEB70tu8hfOD+mmLuKzbIBXpHwOL/PQohK3AbGmBBaMQfuHUVWD9h2QsJAEHrbvRaEY3UoAV7P4B5W+KcURR4dQ+2WOHgOA8PRqABERyJz9KxsqRr1g8EbDkcQi6TP5ok1VcqvPhsxSlmAGVVADTuxB6QOwG7VE7BWQtC84COR0iwrp/OYQ5hBcVhcqr9YIkAKrxpFrdy0IvT/Itb4qJhBQ/ney+lOsDZSBscgdbO1AAScFJgDCJyeWx7Sk5Gl9nBqg9y9Ryq8ugNmiZkgMpEBCC0A0Bjin5aKr2q6cm6UNObDGhmLQOftYaVnRGnyRY8ezx13IyYD2Mici63IMyoJV7KjhH6E6TW+QV43+UNnLZb5bKQA82QvAEYWCAY/R9zLejFYH8J6Hs1CjlWIqXgEfxpL5g4owicOspIoZcYOnr8PoTriEJiSh8B+FEdFkA/8AYoJETCIij5bJUjtWeD6Q9C8L7jfBx6IO1Ruvt3GFuD/0CzrfIn2JHtVdfyjH4T9Kenes6NRREfIVHGg6WJm2XJzCE7OggGEKI7I/QnQZJeAPODyPG5VRW93D2KG3Wb7jRBENNtqutTQesO/GmiECL8LtG3B6IpKAg05nVUKCYMaHiWDV7Br4A9aEURjM0hDdI1SJFEGk8ErYfKorIj9h7eA5RoxSp8mgUggnK8rgPbqJ5nwf+gWdBQHgLzvZh5Sc6/vP/NOq6LdAdyKK86BNe9xAMHAj+TX95/5qFEkDYuERE9eDPGpy5x8cVUiI6Rb00VbWcwcojFIumulX8RDd/odkTGntZUX+kkOwr020iSDL+pL+2lRxHv8ArVfXzdLMv5wiBwwABsFVn7Aw/wBoPQcq8Bl0fjUFPzKHtDRy7FEiiJuJz4PsaPwAZCbJpKYm5dgBHxZ5NDIPn2hs+ZdGRA1XDdB/0WeT7FWhFCLvu20fx1Rg3uw258NoiGC4CuhEIe3B+tOkZC2E3Ecr0g/YS9YjLc3d/ne9bkELYAtAdtk0RpFCDBDBhMHhf5qmYGA6yawmVSqBO7YuWsQvmfA8UCWWoggIEuNMJOkQByUFpkjELHSUKRm3jAVitPWvMTKJPD+o7aEORw4iFkz7dM7dY5wh1APPrPsSlz+4lxSjB3GgjoxhDmndlTjt7uoS/SgwsxYeHk2ZIN6kmX86HVoYTuyQbHPL8Hi0nE5LtFZpEa7banHe0TuyEMQAYOMeZvWw6AXZ6KKyWjoU7NNAimDgAAMnK404gGLsKJqoARZIhkvH+Nf/2Q==",
+    "color": "#75ade1",
+    "currency": "MYR"
+  },
+  "fields": [
+    {
+      "visible": true,
+      "detailVisible": true,
+      "options": [],
+      "id": "customer",
+      "label": "Customer / company",
+      "type": "text",
+      "required": true,
+      "aliases": "Customer, Company, Bill To"
+    },
+    {
+      "visible": true,
+      "detailVisible": true,
+      "options": [],
+      "id": "contact",
+      "label": "Contact person",
+      "type": "text",
+      "required": false,
+      "aliases": "Attention, Attn, Contact Person"
+    },
+    {
+      "visible": true,
+      "detailVisible": true,
+      "options": [],
+      "id": "reference",
+      "label": "Reference number",
+      "type": "text",
+      "required": false,
+      "aliases": "Quotation No, Reference, Quote No"
+    },
+    {
+      "visible": true,
+      "detailVisible": true,
+      "options": [],
+      "id": "email",
+      "label": "Email",
+      "type": "email",
+      "required": false,
+      "aliases": "Email, E-mail"
+    },
+    {
+      "visible": true,
+      "detailVisible": true,
+      "options": [],
+      "id": "phone",
+      "label": "Phone / WhatsApp",
+      "type": "tel",
+      "required": false,
+      "aliases": "Mobile, Phone, Tel"
+    },
+    {
+      "visible": true,
+      "detailVisible": true,
+      "options": [],
+      "id": "amount",
+      "label": "Amount",
+      "type": "number",
+      "required": false,
+      "aliases": "Grand Total, Total Amount"
+    }
+  ],
+  "cadence": {
+    "count": 3,
+    "every": 1,
+    "unit": "weeks",
+    "steps": [
+      {
+        "title": "First check-in",
+        "message": "Hi {{contact}}, just checking in on {{reference}} for {{customer}}. Let me know if you have any questions. — {{company}}"
+      },
+      {
+        "title": "Second follow-up",
+        "message": "Hi {{contact}}, following up on {{reference}}. Is there anything we can help with to move this forward? — {{company}}"
+      },
+      {
+        "title": "Final check-in",
+        "message": "Hi {{contact}}, one last check-in on {{reference}}. Please let us know whether you would like to proceed. Thank you! — {{company}}"
+      }
+    ],
+    "startField": "startedOn"
+  },
+  "templates": [
+    {
+      "kind": "regions",
+      "regions": [
+        {
+          "x": 0.4656652360515021,
+          "y": 0.6845620100883321,
+          "width": 0.5118025751072962,
+          "height": 0.14549932507637298,
+          "shape": "rectangle",
+          "page": 1,
+          "aspectRatio": 0.7062706270627063,
+          "id": "2191c9f2-9e73-49a2-9e55-2c7f0da03a7c",
+          "fieldId": "customer",
+          "dataType": "text"
+        },
+        {
+          "x": 0.4624463519313305,
+          "y": 0.8330925711037962,
+          "width": 0.5128755364806867,
+          "height": 0.027281123451819878,
+          "shape": "rectangle",
+          "page": 1,
+          "aspectRatio": 0.7062706270627063,
+          "id": "e3f60a58-e7e1-445e-bc83-b3cbcf8d6b12",
+          "fieldId": "field_e59c38b1",
+          "dataType": "text"
+        },
+        {
+          "x": 0.5107296137339056,
+          "y": 0.8656783574490255,
+          "width": 0.13841201716738194,
+          "height": 0.020460842588864936,
+          "shape": "rectangle",
+          "page": 1,
+          "aspectRatio": 0.7062706270627063,
+          "id": "72f0aa75-48c9-4114-9215-3f53fb35efa0",
+          "fieldId": "field_4d6a7ddf",
+          "dataType": "text"
+        }
+      ],
+      "status": "active",
+      "version": 3,
+      "versions": [
+        {
+          "id": "efa5b8db-d901-4aa1-a7dd-277273761142",
+          "name": "Custom Template",
+          "presetId": "custom",
+          "category": "custom",
+          "kind": "labels",
+          "mappings": {},
+          "regions": [],
+          "modules": [
+            {
+              "id": "service_c3c9d5f4",
+              "name": "TESTING SERVICE MODULE",
+              "shortName": "TESTING ",
+              "aliases": [],
+              "defaultSelected": false,
+              "fields": [
+                {
+                  "enabled": true,
+                  "required": false,
+                  "visible": true,
+                  "detailVisible": true,
+                  "editable": true,
+                  "defaultValue": "",
+                  "source": "label",
+                  "group": "Details",
+                  "aliases": "",
+                  "options": [],
+                  "id": "fee",
+                  "label": "Proposed fee",
+                  "type": "currency"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "enabled": true,
+              "required": true,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "manual",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "customer",
+              "label": "COMPANY NAME",
+              "type": "text"
+            },
+            {
+              "enabled": true,
+              "required": true,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "field_e59c38b1",
+              "label": "PIC",
+              "type": "text"
+            },
+            {
+              "enabled": true,
+              "required": true,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "field_4d6a7ddf",
+              "label": "DATE",
+              "type": "text"
+            },
+            {
+              "enabled": true,
+              "required": false,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "field_bf9c726e",
+              "label": "PHONE",
+              "type": "text"
+            }
+          ],
+          "status": "draft",
+          "version": 1,
+          "createdAt": "2026-11-03T04:14:46.069Z",
+          "modifiedAt": "2026-11-03T04:16:57.819Z",
+          "workflow": {
+            "count": 3,
+            "every": 1,
+            "unit": "weeks",
+            "steps": [
+              {
+                "title": "First check-in",
+                "message": "Hi {{contact}}, just checking in on {{reference}} for {{customer}}. Let me know if you have any questions. — {{company}}"
+              },
+              {
+                "title": "Second follow-up",
+                "message": "Hi {{contact}}, following up on {{reference}}. Is there anything we can help with to move this forward? — {{company}}"
+              },
+              {
+                "title": "Final check-in",
+                "message": "Hi {{contact}}, one last check-in on {{reference}}. Please let us know whether you would like to proceed. Thank you! — {{company}}"
+              }
+            ],
+            "startField": "startedOn"
+          },
+          "sections": [
+            {
+              "id": "group_Details",
+              "type": "fields",
+              "group": "Details",
+              "title": "Details",
+              "visible": true
+            },
+            {
+              "id": "services",
+              "type": "services",
+              "title": "Selected services & proposed fees",
+              "visible": true
+            },
+            {
+              "id": "document",
+              "type": "document",
+              "title": "Original document & proposal",
+              "visible": true
+            },
+            {
+              "id": "followup",
+              "type": "followup",
+              "title": "Follow-up management",
+              "visible": true
+            },
+            {
+              "id": "history",
+              "type": "history",
+              "title": "Remarks & contact history",
+              "visible": true
+            }
+          ],
+          "tableLayout": {
+            "columns": [
+              {
+                "id": "__title",
+                "label": "Record",
+                "visible": true,
+                "width": 210
+              },
+              {
+                "id": "customer",
+                "label": "Customer name",
+                "visible": true,
+                "width": 260
+              },
+              {
+                "id": "__services",
+                "label": "Selected services",
+                "visible": true,
+                "width": 240
+              },
+              {
+                "id": "__status",
+                "label": "Follow-up status",
+                "visible": true,
+                "width": 160
+              },
+              {
+                "id": "__next",
+                "label": "Next follow-up",
+                "visible": true,
+                "width": 180
+              },
+              {
+                "id": "__action",
+                "label": "Action",
+                "visible": true,
+                "width": 120
+              }
+            ]
+          },
+          "savedAt": "2026-11-03T04:16:57.819Z"
+        },
+        {
+          "id": "efa5b8db-d901-4aa1-a7dd-277273761142",
+          "name": "Custom Template",
+          "presetId": "custom",
+          "category": "custom",
+          "kind": "regions",
+          "mappings": {},
+          "regions": [
+            {
+              "x": 0.4656652360515021,
+              "y": 0.6845620100883321,
+              "width": 0.5118025751072962,
+              "height": 0.14549932507637298,
+              "shape": "rectangle",
+              "page": 1,
+              "aspectRatio": 0.7062706270627063,
+              "id": "2191c9f2-9e73-49a2-9e55-2c7f0da03a7c",
+              "fieldId": "customer",
+              "dataType": "text"
+            },
+            {
+              "x": 0.4624463519313305,
+              "y": 0.8330925711037962,
+              "width": 0.5128755364806867,
+              "height": 0.027281123451819878,
+              "shape": "rectangle",
+              "page": 1,
+              "aspectRatio": 0.7062706270627063,
+              "id": "e3f60a58-e7e1-445e-bc83-b3cbcf8d6b12",
+              "fieldId": "field_e59c38b1",
+              "dataType": "text"
+            },
+            {
+              "x": 0.5107296137339056,
+              "y": 0.8656783574490255,
+              "width": 0.13841201716738194,
+              "height": 0.020460842588864936,
+              "shape": "rectangle",
+              "page": 1,
+              "aspectRatio": 0.7062706270627063,
+              "id": "72f0aa75-48c9-4114-9215-3f53fb35efa0",
+              "fieldId": "field_4d6a7ddf",
+              "dataType": "text"
+            }
+          ],
+          "modules": [
+            {
+              "id": "service_c3c9d5f4",
+              "name": "TESTING SERVICE MODULE",
+              "shortName": "TESTING ",
+              "aliases": [],
+              "defaultSelected": false,
+              "fields": [
+                {
+                  "enabled": true,
+                  "required": false,
+                  "visible": true,
+                  "detailVisible": true,
+                  "editable": true,
+                  "defaultValue": "",
+                  "source": "label",
+                  "group": "Details",
+                  "aliases": "",
+                  "options": [],
+                  "id": "fee",
+                  "label": "Proposed fee",
+                  "type": "currency"
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "enabled": true,
+              "required": true,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "manual",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "customer",
+              "label": "COMPANY NAME",
+              "type": "text"
+            },
+            {
+              "enabled": true,
+              "required": true,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "field_e59c38b1",
+              "label": "PIC",
+              "type": "text"
+            },
+            {
+              "enabled": true,
+              "required": true,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "field_4d6a7ddf",
+              "label": "DATE",
+              "type": "text"
+            },
+            {
+              "enabled": true,
+              "required": false,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "field_bf9c726e",
+              "label": "PHONE",
+              "type": "text"
+            }
+          ],
+          "status": "draft",
+          "version": 2,
+          "createdAt": "2026-11-03T04:14:46.069Z",
+          "modifiedAt": "2026-11-03T04:17:53.791Z",
+          "workflow": {
+            "count": 3,
+            "every": 1,
+            "unit": "weeks",
+            "steps": [
+              {
+                "title": "First check-in",
+                "message": "Hi {{contact}}, just checking in on {{reference}} for {{customer}}. Let me know if you have any questions. — {{company}}"
+              },
+              {
+                "title": "Second follow-up",
+                "message": "Hi {{contact}}, following up on {{reference}}. Is there anything we can help with to move this forward? — {{company}}"
+              },
+              {
+                "title": "Final check-in",
+                "message": "Hi {{contact}}, one last check-in on {{reference}}. Please let us know whether you would like to proceed. Thank you! — {{company}}"
+              }
+            ],
+            "startField": "startedOn"
+          },
+          "sections": [
+            {
+              "id": "group_Details",
+              "type": "fields",
+              "group": "Details",
+              "title": "Details",
+              "visible": true
+            },
+            {
+              "id": "services",
+              "type": "services",
+              "title": "Selected services & proposed fees",
+              "visible": true
+            },
+            {
+              "id": "document",
+              "type": "document",
+              "title": "Original document & proposal",
+              "visible": true
+            },
+            {
+              "id": "followup",
+              "type": "followup",
+              "title": "Follow-up management",
+              "visible": true
+            },
+            {
+              "id": "history",
+              "type": "history",
+              "title": "Remarks & contact history",
+              "visible": true
+            }
+          ],
+          "tableLayout": {
+            "columns": [
+              {
+                "id": "__title",
+                "label": "Record",
+                "visible": true,
+                "width": 210
+              },
+              {
+                "id": "customer",
+                "label": "Customer name",
+                "visible": true,
+                "width": 260
+              },
+              {
+                "id": "__services",
+                "label": "Selected services",
+                "visible": true,
+                "width": 240
+              },
+              {
+                "id": "__status",
+                "label": "Follow-up status",
+                "visible": true,
+                "width": 160
+              },
+              {
+                "id": "__next",
+                "label": "Next follow-up",
+                "visible": true,
+                "width": 180
+              },
+              {
+                "id": "__action",
+                "label": "Action",
+                "visible": true,
+                "width": 120
+              }
+            ]
+          },
+          "pageCount": 7,
+          "language": "eng",
+          "savedAt": "2026-11-03T04:17:53.791Z"
+        }
+      ],
+      "id": "efa5b8db-d901-4aa1-a7dd-277273761142",
+      "name": "Testing",
+      "presetId": "custom",
+      "category": "custom",
+      "mappings": {},
+      "modules": [
+        {
+          "id": "service_c3c9d5f4",
+          "name": "TESTING SERVICE MODULE",
+          "shortName": "TESTING ",
+          "aliases": [],
+          "defaultSelected": false,
+          "fields": [
+            {
+              "enabled": true,
+              "required": false,
+              "visible": true,
+              "detailVisible": true,
+              "editable": true,
+              "defaultValue": "",
+              "source": "label",
+              "group": "Details",
+              "aliases": "",
+              "options": [],
+              "id": "fee",
+              "label": "Proposed fee",
+              "type": "currency"
+            }
+          ]
+        }
+      ],
+      "fields": [
+        {
+          "enabled": true,
+          "required": true,
+          "visible": true,
+          "detailVisible": true,
+          "editable": true,
+          "defaultValue": "",
+          "source": "manual",
+          "group": "Details",
+          "aliases": "",
+          "options": [],
+          "id": "customer",
+          "label": "COMPANY NAME",
+          "type": "text"
+        },
+        {
+          "enabled": true,
+          "required": true,
+          "visible": true,
+          "detailVisible": true,
+          "editable": true,
+          "defaultValue": "",
+          "source": "label",
+          "group": "Details",
+          "aliases": "",
+          "options": [],
+          "id": "field_e59c38b1",
+          "label": "PIC",
+          "type": "text"
+        },
+        {
+          "enabled": true,
+          "required": true,
+          "visible": true,
+          "detailVisible": true,
+          "editable": true,
+          "defaultValue": "",
+          "source": "label",
+          "group": "Details",
+          "aliases": "",
+          "options": [],
+          "id": "field_4d6a7ddf",
+          "label": "DATE",
+          "type": "text"
+        },
+        {
+          "enabled": true,
+          "required": false,
+          "visible": true,
+          "detailVisible": true,
+          "editable": true,
+          "defaultValue": "",
+          "source": "label",
+          "group": "Details",
+          "aliases": "",
+          "options": [],
+          "id": "field_bf9c726e",
+          "label": "PHONE",
+          "type": "text"
+        }
+      ],
+      "createdAt": "2026-11-03T04:14:46.069Z",
+      "modifiedAt": "2026-11-03T04:20:57.328Z",
+      "workflow": {
+        "count": 3,
+        "every": 1,
+        "unit": "weeks",
+        "steps": [
+          {
+            "title": "First check-in",
+            "message": "Hi {{contact}}, just checking in on {{reference}} for {{customer}}. Let me know if you have any questions. — {{company}}"
+          },
+          {
+            "title": "Second follow-up",
+            "message": "Hi {{contact}}, following up on {{reference}}. Is there anything we can help with to move this forward? — {{company}}"
+          },
+          {
+            "title": "Final check-in",
+            "message": "Hi {{contact}}, one last check-in on {{reference}}. Please let us know whether you would like to proceed. Thank you! — {{company}}"
+          }
+        ],
+        "startField": "startedOn"
+      },
+      "sections": [
+        {
+          "id": "group_Details",
+          "type": "fields",
+          "group": "Details",
+          "title": "Details",
+          "visible": true
+        },
+        {
+          "id": "services",
+          "type": "services",
+          "title": "Selected services & proposed fees",
+          "visible": true
+        },
+        {
+          "id": "document",
+          "type": "document",
+          "title": "Original document & proposal",
+          "visible": true
+        },
+        {
+          "id": "followup",
+          "type": "followup",
+          "title": "Follow-up management",
+          "visible": true
+        },
+        {
+          "id": "history",
+          "type": "history",
+          "title": "Remarks & contact history",
+          "visible": true
+        }
+      ],
+      "tableLayout": {
+        "columns": [
+          {
+            "id": "__title",
+            "label": "Record",
+            "visible": true,
+            "width": 210
+          },
+          {
+            "id": "customer",
+            "label": "Customer name",
+            "visible": true,
+            "width": 260
+          },
+          {
+            "id": "__services",
+            "label": "Selected services",
+            "visible": true,
+            "width": 240
+          },
+          {
+            "id": "__status",
+            "label": "Follow-up status",
+            "visible": true,
+            "width": 160
+          },
+          {
+            "id": "__next",
+            "label": "Next follow-up",
+            "visible": true,
+            "width": 180
+          },
+          {
+            "id": "__action",
+            "label": "Action",
+            "visible": true,
+            "width": 120
+          }
+        ]
+      },
+      "pageCount": 7,
+      "language": "eng",
+      "layoutFingerprint": [
+        "1:0.47:0.69",
+        "1:0.47:0.72",
+        "1:0.47:0.83",
+        "1:0.47:0.87",
+        "1:0.27:0.62",
+        "2:0.12:0.08",
+        "2:0.12:0.12",
+        "2:0.12:0.13",
+        "2:0.12:0.16",
+        "2:0.12:0.18",
+        "2:0.12:0.20",
+        "2:0.12:0.21",
+        "2:0.12:0.24",
+        "2:0.12:0.27",
+        "2:0.12:0.29",
+        "2:0.12:0.31",
+        "2:0.23:0.31",
+        "2:0.28:0.31",
+        "2:0.37:0.31",
+        "2:0.48:0.31",
+        "2:0.51:0.31",
+        "2:0.55:0.31",
+        "2:0.65:0.31",
+        "2:0.76:0.31",
+        "2:0.87:0.31",
+        "2:0.12:0.32",
+        "2:0.12:0.34",
+        "2:0.12:0.36",
+        "2:0.12:0.39",
+        "2:0.12:0.40",
+        "2:0.12:0.43",
+        "2:0.12:0.46",
+        "2:0.12:0.48",
+        "2:0.12:0.50",
+        "2:0.12:0.51",
+        "2:0.12:0.54",
+        "2:0.12:0.56",
+        "2:0.12:0.59",
+        "2:0.12:0.60",
+        "2:0.12:0.64",
+        "2:0.12:0.65",
+        "2:0.12:0.73",
+        "2:0.12:0.74",
+        "2:0.12:0.76",
+        "3:0.25:0.08",
+        "3:0.27:0.08",
+        "3:0.28:0.08",
+        "3:0.62:0.08",
+        "3:0.13:0.13",
+        "3:0.31:0.13",
+        "3:0.65:0.13",
+        "3:0.66:0.14",
+        "3:0.78:0.13",
+        "3:0.78:0.14",
+        "3:0.14:0.17",
+        "3:0.17:0.17",
+        "3:0.17:0.19",
+        "3:0.17:0.20",
+        "3:0.66:0.17",
+        "3:0.80:0.17",
+        "3:0.79:0.19",
+        "3:0.12:0.23",
+        "3:0.15:0.23",
+        "3:0.15:0.23",
+        "3:0.17:0.23",
+        "3:0.17:0.23",
+        "3:0.23:0.23",
+        "3:0.30:0.23",
+        "3:0.33:0.23",
+        "3:0.37:0.23",
+        "3:0.43:0.23",
+        "3:0.48:0.23",
+        "3:0.53:0.23",
+        "3:0.55:0.23",
+        "3:0.63:0.23",
+        "3:0.73:0.23",
+        "3:0.76:0.23",
+        "3:0.14:0.25",
+        "3:0.17:0.25",
+        "3:0.17:0.27",
+        "3:0.17:0.28",
+        "3:0.20:0.28",
+        "3:0.24:0.28",
+        "3:0.36:0.28",
+        "3:0.40:0.28",
+        "3:0.49:0.28",
+        "3:0.17:0.29",
+        "3:0.17:0.32",
+        "3:0.17:0.34",
+        "3:0.17:0.37",
+        "3:0.17:0.38",
+        "3:0.69:0.25",
+        "3:0.14:0.42",
+        "3:0.17:0.42",
+        "3:0.17:0.43",
+        "3:0.17:0.45",
+        "3:0.70:0.42",
+        "3:0.12:0.47",
+        "3:0.20:0.47",
+        "3:0.20:0.47",
+        "3:0.14:0.50",
+        "3:0.17:0.50",
+        "3:0.17:0.52",
+        "3:0.17:0.53",
+        "3:0.17:0.55",
+        "3:0.42:0.55",
+        "3:0.54:0.55",
+        "3:0.63:0.55",
+        "3:0.70:0.55",
+        "3:0.81:0.55",
+        "3:0.17:0.56",
+        "3:0.81:0.64",
+        "3:0.83:0.66",
+        "4:0.27:0.08",
+        "4:0.08:0.12",
+        "4:0.30:0.12",
+        "4:0.65:0.12",
+        "4:0.67:0.13",
+        "4:0.76:0.12",
+        "4:0.75:0.13",
+        "4:0.87:0.12",
+        "4:0.87:0.13",
+        "4:0.09:0.15",
+        "4:0.13:0.15",
+        "4:0.13:0.16",
+        "4:0.13:0.18",
+        "4:0.14:0.20",
+        "4:0.17:0.20",
+        "4:0.14:0.22",
+        "4:0.17:0.22",
+        "4:0.14:0.24",
+        "4:0.17:0.24",
+        "4:0.14:0.25",
+        "4:0.17:0.25",
+        "4:0.14:0.27",
+        "4:0.17:0.27",
+        "4:0.66:0.15",
+        "4:0.77:0.15",
+        "4:0.09:0.29",
+        "4:0.13:0.29",
+        "4:0.13:0.31",
+        "4:0.13:0.32",
+        "4:0.14:0.35",
+        "4:0.17:0.35",
+        "4:0.14:0.36",
+        "4:0.17:0.36",
+        "4:0.14:0.38",
+        "4:0.17:0.38",
+        "4:0.17:0.40",
+        "4:0.66:0.29",
+        "4:0.77:0.29",
+        "4:0.08:0.43",
+        "4:0.11:0.43",
+        "4:0.11:0.43",
+        "4:0.13:0.43",
+        "4:0.13:0.43",
+        "4:0.20:0.43",
+        "4:0.09:0.45",
+        "4:0.13:0.45",
+        "4:0.13:0.46",
+        "4:0.13:0.47",
+        "4:0.77:0.45",
+        "4:0.09:0.50",
+        "4:0.13:0.50",
+        "4:0.13:0.52",
+        "4:0.78:0.50",
+        "4:0.08:0.54",
+        "4:0.09:0.56",
+        "4:0.13:0.56",
+        "4:0.13:0.57",
+        "4:0.62:0.57",
+        "4:0.75:0.57",
+        "4:0.13:0.59",
+        "4:0.13:0.60",
+        "4:0.83:0.69",
+        "4:0.84:0.71",
+        "5:0.37:0.10",
+        "5:0.14:0.13",
+        "5:0.34:0.13",
+        "5:0.68:0.13",
+        "5:0.69:0.15",
+        "5:0.80:0.13",
+        "5:0.80:0.15",
+        "5:0.15:0.17",
+        "5:0.19:0.17",
+        "5:0.19:0.19",
+        "5:0.19:0.20",
+        "5:0.68:0.17",
+        "5:0.81:0.17",
+        "5:0.15:0.23",
+        "5:0.19:0.23",
+        "5:0.19:0.24",
+        "5:0.68:0.23",
+        "5:0.83:0.23",
+        "5:0.14:0.27",
+        "5:0.17:0.27",
+        "5:0.17:0.27",
+        "5:0.19:0.27",
+        "5:0.19:0.27",
+        "5:0.26:0.27",
+        "5:0.15:0.29",
+        "5:0.19:0.29",
+        "5:0.19:0.30",
+        "5:0.19:0.31",
+        "5:0.23:0.31",
+        "5:0.34:0.31",
+        "5:0.37:0.31",
+        "5:0.45:0.31",
+        "5:0.54:0.31",
+        "5:0.59:0.31",
+        "5:0.19:0.33",
+        "5:0.83:0.29",
+        "5:0.15:0.36",
+        "5:0.19:0.36",
+        "5:0.19:0.37",
+        "5:0.83:0.36",
+        "5:0.80:0.37",
+        "5:0.14:0.40",
+        "5:0.15:0.42",
+        "5:0.19:0.42",
+        "5:0.22:0.44",
+        "5:0.25:0.44",
+        "5:0.22:0.47",
+        "5:0.25:0.47",
+        "5:0.25:0.48",
+        "5:0.25:0.50",
+        "5:0.25:0.51",
+        "5:0.83:0.60",
+        "6:0.37:0.08",
+        "6:0.08:0.12",
+        "6:0.30:0.12",
+        "6:0.65:0.12",
+        "6:0.67:0.13",
+        "6:0.76:0.12",
+        "6:0.75:0.13",
+        "6:0.87:0.12",
+        "6:0.87:0.13",
+        "6:0.09:0.15",
+        "6:0.13:0.15",
+        "6:0.16:0.15",
+        "6:0.16:0.16",
+        "6:0.16:0.18",
+        "6:0.25:0.18",
+        "6:0.29:0.18",
+        "6:0.34:0.18",
+        "6:0.40:0.18",
+        "6:0.49:0.18",
+        "6:0.56:0.18",
+        "6:0.60:0.18",
+        "6:0.16:0.19",
+        "6:0.13:0.22",
+        "6:0.16:0.22",
+        "6:0.16:0.23",
+        "6:0.16:0.25",
+        "6:0.13:0.27",
+        "6:0.16:0.27",
+        "6:0.26:0.27",
+        "6:0.30:0.27",
+        "6:0.38:0.27",
+        "6:0.47:0.27",
+        "6:0.52:0.27",
+        "6:0.57:0.27",
+        "6:0.16:0.29",
+        "6:0.16:0.30",
+        "6:0.66:0.15",
+        "6:0.77:0.15",
+        "6:0.09:0.32",
+        "6:0.13:0.32",
+        "6:0.13:0.34",
+        "6:0.23:0.34",
+        "6:0.27:0.34",
+        "6:0.36:0.34",
+        "6:0.40:0.34",
+        "6:0.44:0.34",
+        "6:0.53:0.34",
+        "6:0.60:0.34",
+        "6:0.13:0.35",
+        "6:0.66:0.32",
+        "6:0.78:0.32",
+        "6:0.09:0.38",
+        "6:0.13:0.38",
+        "6:0.13:0.39",
+        "6:0.13:0.42",
+        "6:0.16:0.42",
+        "6:0.16:0.44",
+        "6:0.13:0.46",
+        "6:0.16:0.46",
+        "6:0.13:0.49",
+        "6:0.13:0.50",
+        "6:0.66:0.41",
+        "6:0.66:0.46",
+        "6:0.77:0.41",
+        "6:0.76:0.42",
+        "6:0.78:0.46",
+        "6:0.76:0.48",
+        "6:0.08:0.53",
+        "6:0.11:0.53",
+        "6:0.11:0.53",
+        "6:0.13:0.53",
+        "6:0.13:0.53",
+        "6:0.20:0.53",
+        "6:0.09:0.54",
+        "6:0.13:0.54",
+        "6:0.13:0.56",
+        "6:0.13:0.57",
+        "6:0.77:0.54",
+        "6:0.09:0.60",
+        "6:0.13:0.60",
+        "6:0.13:0.61",
+        "6:0.78:0.60",
+        "6:0.08:0.64",
+        "6:0.09:0.66",
+        "6:0.13:0.66",
+        "6:0.13:0.67",
+        "6:0.62:0.67",
+        "6:0.13:0.68",
+        "6:0.24:0.68",
+        "6:0.13:0.70",
+        "6:0.13:0.73",
+        "6:0.85:0.81",
+        "7:0.12:0.08",
+        "7:0.12:0.11",
+        "7:0.13:0.20",
+        "7:0.24:0.20",
+        "7:0.50:0.20",
+        "7:0.67:0.20",
+        "7:0.13:0.23",
+        "7:0.24:0.23",
+        "7:0.50:0.23",
+        "7:0.67:0.23",
+        "7:0.13:0.26",
+        "7:0.24:0.26",
+        "7:0.13:0.29",
+        "7:0.24:0.29",
+        "7:0.13:0.31",
+        "7:0.24:0.31"
+      ]
+    }
+  ],
+  "workspace": {
+    "name": "ANC TESTING 1",
+    "description": "TESTING 1",
+    "dateFormat": "DD/MM/YYYY"
+  }
+}
